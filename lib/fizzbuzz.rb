@@ -1,8 +1,9 @@
 def fizzbuzz(number)
-  "fizz"
-  if number == 5
+  if number % 5 == 0
     "buzz"
-  else number == 3
+  elsif number % 3 == 0
     "fizz"
-end
+  else
+    number
+  end
 end
